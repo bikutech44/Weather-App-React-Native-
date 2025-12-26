@@ -152,7 +152,7 @@ const Home = () => {
                                     }
                                     
                                     style={{
-                                        marginTop: -10,
+                                        marginTop: -20,
                                         alignSelf: 'center',
                                         height: 200,
                                         width: 200,
