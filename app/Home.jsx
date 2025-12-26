@@ -152,7 +152,7 @@ const Home = () => {
                                     }
                                     
                                     style={{
-                                        marginTop: -20,
+                                        marginTop: -10,
                                         alignSelf: 'center',
                                         height: 200,
                                         width: 200,
@@ -347,7 +347,6 @@ const styles = StyleSheet.create({
     },
 
 
-    /// new copy code
     suggestionList: {
         position: 'absolute',
         top: 74, 
@@ -356,7 +355,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'rgba(255, 255, 255, 0.6)',
         borderRadius: 15,
         zIndex: 1000,
-        elevation: 5, // For Android shadow
+        elevation: 5,
         overflow: 'hidden',
     },
     suggestionItem: {
